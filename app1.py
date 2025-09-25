@@ -6,7 +6,7 @@ import pandas as pd
 import pickle
 
 #load the trained models
-model=tf.keras.models.load_model('regression_model.h5')
+model=tf.keras.models.load_model('regression_model.h5',compile=False)
 
 #load the encoder and scaler
 with open('label_encoder.pkl','rb')as file:
