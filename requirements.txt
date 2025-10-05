@@ -5,3 +5,4 @@ scikit-learn
 matplotlib
 streamlit
 tensorboard
+h5py
